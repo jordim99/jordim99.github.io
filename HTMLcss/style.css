@@ -1,0 +1,435 @@
+#content{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+@media screen and (max-width: 800px){
+    .portada{
+        width 100%
+    }
+}
+
+#portada{
+    background-image: url(Img/bluebackground.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#escenacontacte{
+    background-image: url(Img/);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#animacioescena{
+    background-image: url(Img/animationbackground.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#modelatescena{
+    background-color: teal;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+#dissenyescena{
+    background-color: darkorange;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#ilustracioescena{
+    background-color: darkolivegreen;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+#escenacontacte{
+    background-color:dodgerblue;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+
+#TPrin{
+    color: red;
+    position: relative;
+    text-align: center;
+}
+
+/*Pag Principal*/
+
+#botonom{
+    height: 10%;
+    width: 28%;
+    position: relative;
+    top: 3%;
+    left: 19.4%;
+    transition: 1.5s;
+}
+
+#botonom:hover{
+    transform: scale(0.95);
+}
+
+#botoanimacio{
+    height: 15%;
+    width: 14%;
+    position: relative;
+    top: 33%;
+    left: 10%;
+    transition: 1.5s;
+}
+
+#botoanimacio:hover{
+    transform: scale(1.1);
+}
+
+#botomodelatge{
+    height: 15%;
+    width: 14%;
+    position: relative;
+    top: 33%;
+    left: 11%;
+    transition: 1.5s;
+}
+
+#botomodelatge:hover{
+    transform: scale(1.1);
+}
+
+#botoilustracio{
+    height: 15%;
+    width: 14%;
+    position: relative;
+    top: 50%;
+    right: 18.4%;
+    transition: 1.5s;
+}
+
+#botoilustracio:hover{
+    transform: scale(1.1);
+}
+
+#botodisseny{
+    height: 15%;
+    width: 14%;
+    position: relative;
+    top: 50%;
+    right: 17.3%;
+    transition: 1.5s;
+}
+
+#botodisseny:hover{
+    transform: scale(1.1);
+}
+
+#botocontacte{
+    position: absolute;
+    background-image: url(Imatges/aviodepaper.png);
+    top: 70%;
+    left: 50%;
+    z-index: 10;
+    height: 10%;
+    width: 5%;
+}
+
+#botocontacte:hover{
+    transform: rotate(1080deg);
+    transition: 4s;  
+}
+
+/*Pag Contacte*/
+
+#botohome{
+    height: 9%;
+    width: 10%;
+    position: absolute;
+    margin-top: 42%;
+    left: 44%;
+    transition: 1.5s;
+}
+
+#botohome:hover{
+    transform: scale(0.95);
+}
+
+#curriculum{
+    width: 55%;
+    position: absolute;
+    margin-top: 1%;
+    left: 21%;
+}
+
+/*Pag Animacio*/
+
+#video2D{
+    position: absolute;
+    margin-top: 5.6%;
+    left: 17%;
+    z-index: 10;
+}
+
+#video3D{
+    position: absolute;
+    margin-top: 5.6%;
+    left: 54%;
+    z-index: 10;
+}
+
+#botohome1{
+    height: 56%;
+    width: 34%;
+    position: absolute;
+    margin-top: 27%;
+    left: 32%;
+    transition: 1.5s;
+}
+
+#botohome1:hover{
+    transform: scale(0.95);
+}
+
+#fotovideo{
+    width: 19%;
+    position: relative;
+    margin-top: 1.5%;
+    left: 14%;
+    transition: 2s;
+}
+
+#fotovideo:hover{
+    transform: translateX(69%);
+}
+
+#imatgevideo{
+    width: 20%;
+    position: relative;
+    margin-top: -3.4%;
+    left: 45%;
+    transition: 2s;
+}
+
+#imatgevideo:hover{
+    transform: translateX(150px);
+}
+
+#videoreel{
+    width: 38%;
+    position: relative;
+    margin-top: 4%;
+    left: 31%;
+    transition: 1.5s;
+}
+
+#videoreel:hover{
+    transform: scale(1.15);
+}
+
+/*Pag Ilustracio*/
+
+#titolilustracio{
+    width: 38%;
+    position: relative;
+    margin-top: 4%;
+    left: 31%;
+    transition: 1.5s;
+}
+
+#titolilustracio:hover{
+    transform: scale(1.15);
+}
+
+#imatgetigre{
+    width: 56%;
+    position: absolute;
+    margin-top: 4.5%;
+    left: 7%;
+}
+
+#photoshop{
+    width: 20%;
+    position: absolute;
+    margin-top: 1.7%;
+    left: 20.5%;
+    transition: 2s;
+}
+
+#photoshop:hover{
+    transform: scale(1.05);
+}
+
+#imatgeilustrator{
+    width: 42.5%;
+    position: absolute;
+    margin-top: 4.7%;
+    left: 40.5%;
+}
+
+#ilustrator{
+    width: 20%;
+    position: absolute;
+    margin-top: 1.7%;
+    left: 54%;
+    transition: 2s;
+}
+
+#ilustrator:hover{
+    transform: scale(1.05);
+}
+
+#botohomeilustracio{
+    height: 72%;
+    width: 34%;
+    position: absolute;
+    margin-top: 23%;
+    left: 32%;
+    transition: 1.5s;
+}
+
+#botohomeilustracio:hover{
+    transform: scale(0.95);
+}
+
+/*Pag Modelat*/
+
+#titolmodelat{
+    width: 38%;
+    position: relative;
+    margin-top: 4%;
+    left: 31%;
+    transition: 1.5s;
+}
+
+#titomodelat:hover{
+    transform: scale(1.15);
+}
+
+#imatgelow{
+    width: 60%;
+    position: absolute;
+    margin-top: 4.5%;
+    left: 7%;
+}
+
+#dmax{
+    width: 20%;
+    position: absolute;
+    margin-top: 1.7%;
+    left: 20.5%;
+    transition: 2s;
+}
+
+#dmax:hover{
+    transform: scale(1.05);
+}
+
+#imatgemudbox{
+    width: 50%;
+    position: absolute;
+    margin-top: 4.7%;
+    left: 37%;
+}
+
+#mudbox{
+    width: 20%;
+    position: absolute;
+    margin-top: 1.7%;
+    left: 54%;
+    transition: 2s;
+}
+
+#mudbox:hover{
+    transform: scale(1.05);
+}
+
+#botohomemodelat{
+    height: 72%;
+    width: 34%;
+    position: absolute;
+    margin-top: 23%;
+    left: 32%;
+    transition: 1.5s;
+}
+
+#botohomemodelat:hover{
+    transform: scale(0.95);
+}
+
+
+/*Pag Disseny de Videojocs*/
+
+#titoldisseny{
+    width: 42%;
+    position: relative;
+    margin-top: 4%;
+    left: 29%;
+    transition: 1.5s;
+}
+
+#titoldisseny:hover{
+    transform: scale(1.15);
+}
+
+#imatgecorgi{
+    width: 56%;
+    position: absolute;
+    margin-top: 4.5%;
+    left: 7%;
+}
+
+#unity{
+    width: 20%;
+    position: absolute;
+    margin-top: 1.7%;
+    left: 20.5%;
+    transition: 2s;
+}
+
+#unity:hover{
+    transform: scale(1.05);
+}
+
+#imatgestarcraft{
+    width: 85%;
+    position: absolute;
+    margin-top: 4.7%;
+    left: 17%;
+}
+
+#starcraft{
+    width: 20%;
+    position: absolute;
+    margin-top: 1.7%;
+    left: 56%;
+    transition: 2s;
+}
+
+#starcraft:hover{
+    transform: scale(1.05);
+}
+
+#botohomedisseny{
+    height: 72%;
+    width: 34%;
+    position: absolute;
+    margin-top: 33%;
+    left: 32%;
+    transition: 1.5s;
+}
+
+#botohomedisseny:hover{
+    transform: scale(0.95);
+}
